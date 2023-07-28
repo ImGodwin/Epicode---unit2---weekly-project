@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+.general-content-container {
+  max-width: 1160px;
+  margin-inline: auto;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-inline: 3rem;
+  justify-content: space-between;
+  min-height: 90px;
+  border-bottom: 1px black solid;
+  background-color: #ffc017;
+}
+
+.header-content {
+  display: flex;
+}
+
+.header-content ul {
+  margin-left: auto;
+}
+header img {
+}
+
+ul button {
+  list-style: none;
+  justify-content: space-around;
+}
+
+ul {
+  padding: 0 15px;
+}
+
+li {
+  margin-inline: 15px;
+}
+
+header ul li {
+  display: inline;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 7px 19px;
+  border-radius: 60px;
+  border-color: black;
+  box-shadow: 3px black;
+}
+
+/* above the fold */
+
+.above-the-fold {
+  /* display: flex; */
+  /* flex-direction: column; */
+  border-bottom: 1px black solid;
+  padding-bottom: 70px;
+  background-color: #ffc017;
+}
+
+.above-the-fold-content {
+  display: flex;
+}
+.above-the-fold-h1-class {
+  /* max-width: 590px; */
+  padding-top: 100px;
+  justify-content: center;
+}
+
+.above-the-fold h1 {
+  font-size: 6.7rem;
+  padding-bottom: 23px;
+}
+
+.above-the-fold h4 {
+  font-size: 1.5rem;
+  line-height: 27px;
+}
+
+.above-the-fold button {
+  margin-top: 40px;
+  font-size: 1.3rem;
+}
+
+/* news  */
+
+.trending-news-flex-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px rgb(158, 157, 157) solid;
+  padding-bottom: 30px;
+}
+
+.trending-news-container-body {
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  row-gap: 2;
+}
+
+.trending-contents {
+  display: flex;
+  width: 30%;
+  padding-bottom: 30px;
+}
+
+.trending-news-number {
+  padding-right: 20px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  opacity: 0.1;
+}
+
+.trending-news-updates {
+}
+
+.trending-news-updates h6 {
+  font-weight: 600;
+  padding-bottom: 9px;
+}
+
+.trending-news-updates h4 {
+  font-size: 1.3em;
+  font-weight: 600;
+  padding-bottom: 13px;
+}
+
+.trending-news-updates p {
+  opacity: 0.5;
+}
