@@ -67,6 +67,9 @@ button {
   border-bottom: 1px black solid;
   padding-bottom: 70px;
   background-color: #ffc017;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .above-the-fold-content {
@@ -75,11 +78,16 @@ button {
 .above-the-fold-h1-class {
   /* max-width: 590px; */
   padding-top: 100px;
-  justify-content: center;
+}
+
+.above-the-fold svg {
+  display: flex;
+  height: 40px;
+  margin-right: 0;
 }
 
 .above-the-fold h1 {
-  font-size: 6.7rem;
+  font-size: 6.2rem;
   padding-bottom: 23px;
 }
 
